@@ -1,0 +1,56 @@
+name: krishworks_assignment
+description: KrishWorks Assignment
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Firebase Core
+  firebase_core: ^1.7.0
+
+  # Firebase Auth
+  firebase_auth: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/poppins_thin.ttf
+          weight: 100
+        - asset: assets/fonts/poppins/poppins_extralight.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/poppins_light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/poppins_regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/poppins_medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/poppins_semibold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/poppins_bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/poppins_extrabold.ttf
+          weight: 800
+        - asset: assets/fonts/poppins/poppins_black.ttf
+          weight: 900
